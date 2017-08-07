@@ -1,0 +1,20 @@
+page-home {
+  .imgcircle { width: 120px;
+                height: 120px;
+                border-radius: 150px;
+                -webkit-border-radius: 150px;
+                -moz-border-radius: 150px;
+                background: url(../assets/img/images.jpg) no-repeat;
+                background-size: 100% 100%;
+                background-position: center;
+                box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+                -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+                -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8); }
+  .contenedor1 {
+                background-color: #3A5F66;
+                border-radius: 15px;
+                box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+                -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+                -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8); }
+
+}
