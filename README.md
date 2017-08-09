@@ -1,6 +1,6 @@
 # OnMessage
 
-###Instant messaging application en Ionic Framework whit AngularJs.
+Instant messaging application en Ionic Framework whit AngularJs.
 
 
 ## How to use this template
