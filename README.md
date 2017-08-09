@@ -1,5 +1,7 @@
-<<<<<<< HEAD
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+# OnMessage
+```bash
+Instant messaging application en Ionic Framework whit AngularJs.
+```
 
 ## How to use this template
 
@@ -24,8 +26,3 @@ $ ionic cordova run ios
 ```
 
 Substitute ios for android if not on a Mac.
-
-=======
-# OnMessage
-Instant messaging application en Ionic Framework whit AngularJs.
->>>>>>> 6b65084b816e5ed1b34de55cdfb0854a12856df1
