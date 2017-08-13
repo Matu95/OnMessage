@@ -7,7 +7,7 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding style="background-color: #AEB6BF">
+<ion-content padding class="fondo">
   <h2 align="center">Bienvenido</h2>
 <ion-grid>
 
@@ -30,7 +30,7 @@
 <div class="contenedor1"><hr>
   <p align="center">Si aùn no formas parte OnMessage;</p>
   <div align="center">
-    <button ion-button round>Registrate ;)</button>
+    <button ion-button round [navPush]="registerPage">Registrate ;)</button>
     <p>ò</p>
     <button ion-button round>Inicia Sesión</button><hr>
   </div>

@@ -1,0 +1,27 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Registro-OnMessage <ion-icon name="happy"></ion-icon></ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding style="background-color: #D5DBDB">
+  <ion-item class="transparent">
+    <ion-label color="primary" stacked>Nombre de usuario</ion-label>
+    <ion-input type="text" clearInput [(ngModel)]="model.usuario"></ion-input>
+  </ion-item>
+  <ion-item class="transparent">
+    <ion-label color="primary" stacked>Correo</ion-label>
+    <ion-input type="text" clearInput [(ngModel)]="model.correo"></ion-input>
+  </ion-item>
+  <ion-item class="transparent">
+    <ion-label color="primary" stacked>Contraseña</ion-label>
+    <ion-input type="password" clearInput [(ngModel)]="model.pasw"></ion-input>
+  </ion-item>
+  <div class="buttonstyle">
+    <button ion-button (click)="save()">Enviar</button>
+  </div>
+</ion-content>

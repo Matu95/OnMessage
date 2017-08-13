@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-
+import {User} from '../../database';
 /**
  * Generated class for the ContactosPage page.
  *
@@ -14,12 +14,20 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'contactos.html',
 })
 export class ContactosPage {
-
+  User: any;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad ContactosPage');
+    this.loadUsuarios();
+  }
+
+  loadUsuarios(){
+    User.all()
+        .then((resultados) => {
+          this.User = resultados
+          console.log(this.User);
+        });
   }
 
 }

@@ -16,6 +16,18 @@
 </ion-header>
 
 
-<ion-content padding style="background-color: #AEB6BF">
-
+<ion-content padding class="fondo">
+<ion-card>
+<ion-card-header>Tus contactos</ion-card-header>
+<ion-list  *ngFor="let usuarios of User">
+  <ion-item>
+    <ion-thumbnail item-start>
+      <img src="../assets/img/images3.jpg">
+    </ion-thumbnail>
+    <h2>{{usuarios.usuario}}</h2>
+    <p>{{usuarios.correo}}</p>
+    <button ion-button clear item-end>View</button>
+  </ion-item>
+</ion-list>
+</ion-card>
 </ion-content>
