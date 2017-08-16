@@ -25199,6 +25199,14 @@ ion-navbar.toolbar {
   }
 }
 
+.fondo {
+  background-color: #AEB6BF;
+}
+
+.transparent {
+  background-color: transparent;
+}
+
 page-home .imgcircle {
   width: 120px;
   height: 120px;
@@ -25219,4 +25227,9 @@ page-home .contenedor1 {
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
   -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
   -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+}
+
+page-register .buttonstyle {
+  text-align: right;
+  margin-top: 20px;
 }
