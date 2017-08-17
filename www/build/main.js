@@ -70,7 +70,11 @@ var RegisterPage = (function () {
 RegisterPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPage */])(),
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+<<<<<<< HEAD
         selector: 'page-register',template:/*ion-inline-start:"C:\xampp1\htdocs\OnMessage\src\pages\register\register.html"*/'\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Registro-OnMessage <ion-icon name="happy"></ion-icon></ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding style="background-color: #D5DBDB">\n  <ion-item class="transparent">\n    <ion-label color="primary" stacked>Nombre de usuario</ion-label>\n    <ion-input type="text" clearInput [(ngModel)]="model.usuario"></ion-input>\n  </ion-item>\n  <ion-item class="transparent">\n    <ion-label color="primary" stacked>Correo</ion-label>\n    <ion-input type="text" clearInput [(ngModel)]="model.correo"></ion-input>\n  </ion-item>\n  <ion-item class="transparent">\n    <ion-label color="primary" stacked>Contraseña</ion-label>\n    <ion-input type="password" clearInput [(ngModel)]="model.pasw"></ion-input>\n  </ion-item>\n  <div class="buttonstyle">\n    <button ion-button (click)="save()">Enviar</button>\n  </div>\n</ion-content>\n'/*ion-inline-end:"C:\xampp1\htdocs\OnMessage\src\pages\register\register.html"*/,
+=======
+        selector: 'page-register',template:/*ion-inline-start:"/opt/lampp/htdocs/OnMessage/src/pages/register/register.html"*/'\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Registro-OnMessage <ion-icon name="happy"></ion-icon></ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding style="background-color: #D5DBDB">\n  <ion-item class="transparent">\n    <ion-label color="primary" stacked>Nombre de usuario</ion-label>\n    <ion-input type="text" clearInput [(ngModel)]="model.usuario"></ion-input>\n  </ion-item>\n  <ion-item class="transparent">\n    <ion-label color="primary" stacked>Correo</ion-label>\n    <ion-input type="text" clearInput [(ngModel)]="model.correo"></ion-input>\n  </ion-item>\n  <ion-item class="transparent">\n    <ion-label color="primary" stacked>Contraseña</ion-label>\n    <ion-input type="password" clearInput [(ngModel)]="model.pasw"></ion-input>\n  </ion-item>\n  <div class="buttonstyle">\n    <button ion-button (click)="save()">Enviar</button>\n  </div>\n</ion-content>\n'/*ion-inline-end:"/opt/lampp/htdocs/OnMessage/src/pages/register/register.html"*/,
+>>>>>>> 63e8096f047f84881e6d86a6b6430d17964cc9ae
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]])
 ], RegisterPage);
@@ -126,7 +130,7 @@ var ContactosPage = (function () {
 ContactosPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPage */])(),
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-contactos',template:/*ion-inline-start:"C:\xampp1\htdocs\OnMessage\src\pages\contactos\contactos.html"*/'<!--\n  Generated template for the ContactosPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>On-Contac</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding class="fondo">\n<ion-card>\n<ion-card-header>Tus contactos</ion-card-header>\n<ion-list  *ngFor="let usuarios of User">\n  <ion-item>\n    <ion-thumbnail item-start>\n      <img src="../assets/img/images3.jpg">\n    </ion-thumbnail>\n    <h2>{{usuarios.usuario}}</h2>\n    <p>{{usuarios.correo}}</p>\n    <button ion-button clear item-end>View</button>\n  </ion-item>\n</ion-list>\n</ion-card>\n</ion-content>\n'/*ion-inline-end:"C:\xampp1\htdocs\OnMessage\src\pages\contactos\contactos.html"*/,
+        selector: 'page-contactos',template:/*ion-inline-start:"/opt/lampp/htdocs/OnMessage/src/pages/contactos/contactos.html"*/'<!--\n  Generated template for the ContactosPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>On-Contac</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding class="fondo">\n<ion-card>\n<ion-card-header>Tus contactos</ion-card-header>\n<ion-list  *ngFor="let usuarios of User">\n  <ion-item>\n    <ion-thumbnail item-start>\n      <img src="../assets/img/images3.jpg">\n    </ion-thumbnail>\n    <h2>{{usuarios.usuario}}</h2>\n    <p>{{usuarios.correo}}</p>\n    <button ion-button clear item-end>View</button>\n  </ion-item>\n</ion-list>\n</ion-card>\n</ion-content>\n'/*ion-inline-end:"/opt/lampp/htdocs/OnMessage/src/pages/contactos/contactos.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
 ], ContactosPage);
@@ -172,7 +176,7 @@ var MensajesPage = (function () {
 MensajesPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPage */])(),
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-mensajes',template:/*ion-inline-start:"C:\xampp1\htdocs\OnMessage\src\pages\mensajes\mensajes.html"*/'<!--\n  Generated template for the MensajesPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>On-Mymesagges</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding class="fondo">\n\n</ion-content>\n'/*ion-inline-end:"C:\xampp1\htdocs\OnMessage\src\pages\mensajes\mensajes.html"*/,
+        selector: 'page-mensajes',template:/*ion-inline-start:"/opt/lampp/htdocs/OnMessage/src/pages/mensajes/mensajes.html"*/'<!--\n  Generated template for the MensajesPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>On-Mymesagges</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding class="fondo">\n\n</ion-content>\n'/*ion-inline-end:"/opt/lampp/htdocs/OnMessage/src/pages/mensajes/mensajes.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
 ], MensajesPage);
@@ -185,7 +189,11 @@ MensajesPage = __decorate([
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
-	return new Promise(function(resolve, reject) { reject(new Error("Cannot find module '" + req + "'.")); });
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
 }
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
@@ -199,15 +207,15 @@ webpackEmptyAsyncContext.id = 110;
 
 var map = {
 	"../pages/contactos/contactos.module": [
-		272,
+		271,
 		2
 	],
 	"../pages/mensajes/mensajes.module": [
-		273,
+		272,
 		1
 	],
 	"../pages/register/register.module": [
-		271,
+		270,
 		0
 	]
 };
@@ -222,8 +230,12 @@ function webpackAsyncContext(req) {
 webpackAsyncContext.keys = function webpackAsyncContextKeys() {
 	return Object.keys(map);
 };
-module.exports = webpackAsyncContext;
 webpackAsyncContext.id = 151;
+module.exports = webpackAsyncContext;
+<<<<<<< HEAD
+webpackAsyncContext.id = 151;
+=======
+>>>>>>> 63e8096f047f84881e6d86a6b6430d17964cc9ae
 
 /***/ }),
 
@@ -326,7 +338,7 @@ var ListPage = ListPage_1 = (function () {
 }());
 ListPage = ListPage_1 = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-list',template:/*ion-inline-start:"C:\xampp1\htdocs\OnMessage\src\pages\list\list.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>List</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content class="fondo">\n  <ion-list>\n    <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)" class="transparent">\n      <ion-icon [name]="item.icon" item-left></ion-icon>\n      {{item.title}}\n      <div class="item-note" item-right>\n        {{item.note}}\n      </div>\n    </button>\n  </ion-list>\n  <div *ngIf="selectedItem" padding>\n    You navigated here from <b>{{selectedItem.title}}</b>\n  </div>\n</ion-content>\n'/*ion-inline-end:"C:\xampp1\htdocs\OnMessage\src\pages\list\list.html"*/
+        selector: 'page-list',template:/*ion-inline-start:"/opt/lampp/htdocs/OnMessage/src/pages/list/list.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>List</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content class="fondo">\n  <ion-list>\n    <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)" class="transparent">\n      <ion-icon [name]="item.icon" item-left></ion-icon>\n      {{item.title}}\n      <div class="item-note" item-right>\n        {{item.note}}\n      </div>\n    </button>\n  </ion-list>\n  <div *ngIf="selectedItem" padding>\n    You navigated here from <b>{{selectedItem.title}}</b>\n  </div>\n</ion-content>\n'/*ion-inline-end:"/opt/lampp/htdocs/OnMessage/src/pages/list/list.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
 ], ListPage);
@@ -358,7 +370,11 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(29);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(20);
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(262);
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(261);
+>>>>>>> 63e8096f047f84881e6d86a6b6430d17964cc9ae
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(77);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_list_list__ = __webpack_require__(196);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_contactos_contactos__ = __webpack_require__(101);
@@ -429,7 +445,7 @@ AppModule = __decorate([
 
 /***/ }),
 
-/***/ 262:
+/***/ 261:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -495,7 +511,7 @@ __decorate([
     __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Nav */])
 ], MyApp.prototype, "nav", void 0);
 MyApp = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"C:\xampp1\htdocs\OnMessage\src\app\app.html"*/'<ion-menu [content]="content">\n  <ion-header>\n    <ion-toolbar>\n      <ion-title>OnMessage</ion-title>\n    </ion-toolbar>\n  </ion-header>\n\n  <ion-content style="background-color: #D5DBDB">\n    <ion-list>\n      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)" style="background-color: #D5DBDB">\n        {{p.title}}\n      </button>\n    </ion-list>\n  </ion-content>\n\n</ion-menu>\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>\n'/*ion-inline-end:"C:\xampp1\htdocs\OnMessage\src\app\app.html"*/
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/opt/lampp/htdocs/OnMessage/src/app/app.html"*/'<ion-menu [content]="content">\n  <ion-header>\n    <ion-toolbar>\n      <ion-title>OnMessage</ion-title>\n    </ion-toolbar>\n  </ion-header>\n\n  <ion-content style="background-color: #D5DBDB">\n    <ion-list>\n      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)" style="background-color: #D5DBDB">\n        {{p.title}}\n      </button>\n    </ion-list>\n  </ion-content>\n\n</ion-menu>\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>\n'/*ion-inline-end:"/opt/lampp/htdocs/OnMessage/src/app/app.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
 ], MyApp);
@@ -533,7 +549,11 @@ var HomePage = (function () {
 }());
 HomePage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+<<<<<<< HEAD
         selector: 'page-home',template:/*ion-inline-start:"C:\xampp1\htdocs\OnMessage\src\pages\home\home.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>OnMessage</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding class="fondo">\n  <h2 align="center">Bienvenido</h2>\n<ion-grid>\n\n  <ion-row justify-content-center>\n    <ion-col col-sm-4>\n    </ion-col>\n    <ion-col col-sm-4 >\n      <div align="center">\n        <div class="imgcircle"></div>\n      </div>\n    </ion-col>\n    <ion-col col-sm-4>\n    </ion-col>\n  </ion-row>\n\n</ion-grid>\n<h6 align="center">\n   Te damos la bienvenida, OnMessage es un sistema de mensajeria instantanea.\n</h6>\n<div class="contenedor1"><hr>\n  <p align="center">Si aùn no formas parte OnMessage;</p>\n  <div align="center">\n    <button ion-button round [navPush]="registerPage">Registrate ;)</button>\n    <p>ò</p>\n    <button ion-button round>Inicia Sesión</button><hr>\n  </div>\n</div>\n\n  <!--<button ion-button secondary menuToggle>Toggle Menu</button>-->\n</ion-content>\n'/*ion-inline-end:"C:\xampp1\htdocs\OnMessage\src\pages\home\home.html"*/
+=======
+        selector: 'page-home',template:/*ion-inline-start:"/opt/lampp/htdocs/OnMessage/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>OnMessage</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding class="fondo">\n  <h2 align="center">Bienvenido</h2>\n<ion-grid>\n\n  <ion-row justify-content-center>\n    <ion-col col-sm-4>\n    </ion-col>\n    <ion-col col-sm-4 >\n      <div align="center">\n        <div class="imgcircle"></div>\n      </div>\n    </ion-col>\n    <ion-col col-sm-4>\n    </ion-col>\n  </ion-row>\n\n</ion-grid>\n<h6 align="center">\n   Te damos la bienvenida, OnMessage es un sistema de mensajeria instantanea.\n</h6>\n<div class="contenedor1"><hr>\n  <p align="center">Si aùn no formas parte OnMessage;</p>\n  <div align="center">\n    <button ion-button round [navPush]="registerPage">Registrate ;)</button>\n    <p>ò</p>\n    <button ion-button round>Inicia Sesión</button><hr>\n  </div>\n</div>\n\n  <!--<button ion-button secondary menuToggle>Toggle Menu</button>-->\n</ion-content>\n'/*ion-inline-end:"/opt/lampp/htdocs/OnMessage/src/pages/home/home.html"*/
+>>>>>>> 63e8096f047f84881e6d86a6b6430d17964cc9ae
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]])
 ], HomePage);
