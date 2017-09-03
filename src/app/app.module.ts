@@ -8,6 +8,7 @@ import { ListPage } from '../pages/list/list';
 import { ContactosPage } from '../pages/contactos/contactos';
 import { MensajesPage } from '../pages/mensajes/mensajes';
 import { RegisterPage } from '../pages/register/register';
+import { SlidePage } from '../pages/home/slide/slide';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -15,11 +16,12 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 @NgModule({
   declarations: [
     MyApp,
+    RegisterPage,
+    SlidePage,
     HomePage,
     ListPage,
     ContactosPage,
-    MensajesPage,
-    RegisterPage
+    MensajesPage
   ],
   imports: [
     BrowserModule,
@@ -28,11 +30,12 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
+    RegisterPage,
+    SlidePage,
     HomePage,
     ListPage,
     ContactosPage,
-    MensajesPage,
-    RegisterPage
+    MensajesPage
   ],
   providers: [
     StatusBar,
