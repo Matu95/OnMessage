@@ -12,7 +12,7 @@ export class DatabaseAppDB extends Dexie{
   }
 }
 export interface ICategory{
-
+zz
 }
 
 export interface IUsuario{
